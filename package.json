@@ -1,18 +1,19 @@
 {
   "name": "base_lib_express_es6",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A base structure to build a javascript library",
   "main": "index.js",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha test/",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igiagante/base_lib_express_es6.git"
+    "url": "https://github.com/igiagante/base_lib_express_es6.git"
   },
   "keywords": [
     "express",
@@ -25,5 +26,15 @@
   "bugs": {
     "url": "https://github.com/igiagante/base_lib_express_es6/issues"
   },
-  "homepage": "https://github.com/igiagante/base_lib_express_es6#readme"
+  "homepage": "https://github.com/igiagante/base_lib_express_es6#readme",
+  "cz-Config": {
+    "path": "./node_modules/cz-conventional-changelog"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "mocha": "3.2.0",
+    "semantic-release": "^6.3.2"
+  }
 }

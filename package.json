@@ -1,0 +1,29 @@
+{
+  "name": "base_lib_express_es6",
+  "version": "1.0.0",
+  "description": "A base structure to build a javascript library",
+  "main": "index.js",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igiagante/base_lib_express_es6.git"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "es6",
+    "boilerplate"
+  ],
+  "author": "Ignacio Giagante <igiagante@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igiagante/base_lib_express_es6/issues"
+  },
+  "homepage": "https://github.com/igiagante/base_lib_express_es6#readme"
+}

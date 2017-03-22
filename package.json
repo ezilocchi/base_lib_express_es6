@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
-    "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "check-coverage": "nyc check-coverage --statements 60 --branches 60 --functions 60 --lines 60",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "start": "babel-node index.js --presets es2015,stage-2",
     "test": "mocha test/* --compilers js:babel-register",
@@ -84,5 +84,5 @@
     "es2015",
     "stage-2"
   ]
-}
+  }
 }

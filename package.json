@@ -10,7 +10,8 @@
     "start": "babel-node index.js --presets es2015,stage-2",
     "test": "mocha test/unit/* --compilers js:babel-register",
     "test:all": "mocha test/* --compilers js:babel-register",
-    "cover": "nyc npm t",
+    "cover": "nyc npm test",
+    "cover:all": "nyc npm test:all",
     "lint": "esw *.js app config --color",
     "lint:clean": "esw *.js app config --color --fix",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
@@ -36,7 +37,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-commit": "npm run lint && npm run test && npm run check-coverage"
+      "pre-commit": "npm run lint && npm run cover:all && npm run check-coverage"
     }
   },
   "dependencies": {

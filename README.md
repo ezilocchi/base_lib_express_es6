@@ -3,6 +3,11 @@
 [![travis build](https://img.shields.io/travis/igiagante/base_lib_express_es6.svg)](https://travis-ci.org/igiagante/base_lib_express_es6)
 [![codecov coverage](https://img.shields.io/codecov/c/github/igiagante/base_lib_express_es6.svg)](https://codecov.io/gh/igiagante/base_lib_express_es6)
 
+## Overview
+
+This is a boilerplate application for building REST APIs in Node.js using ES6 and Express with Code Coverage and JWT Authentication. Helps you stay productive by following best practices. Follows [Airbnb's Javascript style guide](https://github.com/airbnb/javascript).
+
+Heavily inspired from [KunalKapadia - Express & mongoose REST API Boilerplate in ES6 with Code Coverage](https://github.com/KunalKapadia/express-mongoose-es6-rest-api.git).
 
 ## Getting Started
 
@@ -61,7 +66,7 @@ npm run lint:clean
 # npm run semantic-release
 ```
 
-Refer to [semantic-release](https://github.com/semantic-release/semantic-release) for better understanding.
+Refer [semantic-release](https://github.com/semantic-release/semantic-release) to understand better the release process.
 
 ## Logging
 
